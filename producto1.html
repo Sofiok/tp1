@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Agencia de viajes Trotamundos</title>
+    <meta name="description" content="Viajes,Agencia de viajes,Turismo" />
+    <meta name="keywords" content="Vuelos baratos,Viajes,Agencia de viajes,Turismo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body {
+            background-position: center center;
+            background: radial-gradient(ellipse, white, grey);
+        }
+
+        footer {
+            background-color: #6B6C6E;
+            padding-top: 1em;
+            overflow: hidden;
+            margin-top: 1em;
+        }
+
+        section {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        .card-group {
+            display: flex;
+        }
+
+        .article-row {
+            margin-bottom: 15px;
+        }
+
+        .comment {
+            font-style: italic
+        }
+
+        .package-img {
+            object-fit: cover;
+        }
+
+        .navbar {
+            font-size: x-large;
+        }
+
+        .product-price {
+            font-weight: bold;
+            font-size: 1.6rem;
+        }
+
+        .newsletter {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+
+        .subscribe-btn {
+            margin-right: 1em;
+        }
+
+        .contact-info {
+            text-align: right;
+            margin: 1em;
+        }
+
+        .no-padding {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="col-md-12">
+                <h1>Agencia de viajes</h1>
+                <h2>Trotamundos</h2>
+
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item ml-5 mr-5">
+                                    <a class="nav-link" href="home.html">Home</a>
+                                </li>
+                                <li class="nav-item ml-5 mr-5 active">
+                                    <a class="nav-link active" href="#">Destinos<span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item ml-5 mr-5">
+                                    <a class="nav-link" href="checkout.html">Checkout</a>
+                                </li>
+                                <li class="nav-item ml-5 mr-5">
+                                    <a class="nav-link" href="#">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="container-fluid">
+        <div class="container mt-4">
+            <div class="card mb-3">
+                <img class="card-img-top package-img" src="img/london-main.jpg" alt="Card image cap"
+                    height="400px">
+                <div class="card-body">
+                    <h5 class="card-title">Londres</h5>
+                    <p class="card-text">Londres 8 días y 7 noches, hotel 4 estrellas con desayuno incluido cerca de
+                        picadilly circus (centro turistico), dos excursiones a elección,
+                        pasaje de ida y pasaje de vuelta, transporte desde el aerpuerto, precio en base doble.
+                    </p>
+                    <div class="container">
+                        <div class="d-flex justify-content-around">
+                            <span class="product-price">USD 1.086,38</span>
+
+                            <a href="checkout.html" type="button" class="btn btn-success"> Comprar </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Algunas experiencias de nuestros viajeros</h3>
+            <div class="row card-group">
+                <div class="card col-md-4 col-sm-4 no-padding">
+                    <img class="card-img-top" src="img/guzman.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Guzman</h5>
+                        <p class="card-text comment">"Son geniales! Organizaron todo mi viaje,vuelo,hospedaje
+                            todo
+                            espectacular".</p>
+                        <br>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Hace 6 semanas</small>
+                    </div>
+                </div>
+                <div class="card col-md-4 col-sm-4 no-padding">
+                    <img class="card-img-top" src="img/amelie.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Amelie</h5>
+                        <p class="card-text comment"> "Jámas olvidaré este viaje, fue el primero de muchos con
+                            los chicos de
+                            trotamundos".</p>
+                        <br>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Hace 2 meses</small>
+                    </div>
+                </div>
+                <div class="card col-md-4 col-sm-4 no-padding">
+                    <img class="card-img-top" src="img/jean-luc.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Jean Luc</h5>
+                        <p class="card-text comment">"Mi familia y yo nos sentimos muy bien con el servicio
+                            brindado.
+                            Compramos el paquete para ir a disney y la pasamos espectacular, las excursiones que
+                            nos
+                            recomedaron fueron las adecuadas".</p>
+                        <br>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></i>
+
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Hace 1 año</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-sm-4 col-md-5 my-auto">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control newsletter" placeholder="Ingresa tu mail"
+                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-secondary"> REGISTRARSE </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-3 contact-info">
+                <b>Contacto</b><br>
+                <i class="fas fa-envelope-square"></i> info@trotamundos.com<br>
+                <i class="fas fa-phone"></i> (+598) 2402 5555<br>
+                <b>Atención telefónica</b><br>
+                L a V de 9:30 a 18hs y Sábados de 9 a 13hs.<br>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/b185b62c5a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
